@@ -8,7 +8,9 @@ Para la instalación de las diferentes bibliotecas de las que hace uso el progra
 > pip install -r requirements.txt
  
 El programa requiere que el usuario registre una cuenta de desarrollo de Twitter, para ello hay que dirigirse a su página para desarroladores  rellenar el formulario de registro y una vez completado dirigirse a la sección Keys and Access Tokens y copiar las llaves correspondientes en el fichero config.py del programa en formato string.
+
 Para el uso de los servicios de Google se requiere una cuenta de desarrollador y para esta cuenta es necesario el uso de una tarjeta de crédito. Teniendo esto en cuenta hay que dirigirse a la pagina de registro de desarrolladores de Google  y una vez efectuado el registro dar permisos a las API de Google Cloud y Google Speech desde el panel de control de la página. Luego hay que dirigirse a la sección de credenciales  y descargar el fichero JSON que las contiene.
+
 La ruta a este archivo debe especificarse en el registro de variables del sistema, esto puede hacerse con el comando:
 >set GOOGLE_APPLICATION_CREDENTIALS = [ruta al archivo]
   
