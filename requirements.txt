@@ -34,4 +34,4 @@ SpeechRecognition==3.8.1
 threadsafe-tkinter==1.0.1
 twitter==1.18.0
 uritemplate==3.0.0
-urllib3==1.23
+urllib3==1.26.5
